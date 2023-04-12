@@ -1,0 +1,77 @@
+
+<header>
+
+  <div class="container-fluid">
+
+      <div class="navb-logo">
+         <p class="font">A R.</p>
+      </div>
+
+      <div class="navb-items d-none d-xl-flex">
+
+          <div class="item">
+              <a routerLink="/">Home</a>
+          </div>
+
+          <div class="item">
+              <a routerLink="/about">About</a>
+          </div>
+
+          <div class="item">
+              <a routerLink="/resume">Resume</a>
+          </div>
+
+          <div class="item">
+              <a routerLink="/project">Project</a>
+          </div>
+
+          <div class="item-button">
+              <a href="https://github.com/ashis541/newportfolio.git" type="button" target="_blank"><i class="bi bi-git" style="font-size: 36px;"></i></a>
+          </div>
+      </div>
+
+      <!-- Button trigger modal -->
+      <div class="mobile-toggler d-lg-none">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+            <i class="bi bi-list"></i>
+          </a>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+
+                  <div class="modal-header">
+                      <img src="" alt="Logo">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-circle" style="color: white;"></i></button>
+                  </div>
+
+                  <div class="modal-body">
+
+                      <div class="modal-line">
+                        <i class="bi bi-house-check-fill" style="color: white;"></i><a routerLink="/home">Home</a>
+                      </div>
+
+                      <div class="modal-line">
+                        <i class="bi bi-person" style="color: white;"></i><a routerLink="/about">About</a>
+                      </div>
+
+                      <div class="modal-line">
+                        <i class="bi bi-file-person" style="color: white;"></i><a routerLink="/resume">Resume</a>
+                      </div>
+
+                      <div class="modal-line">
+                        <i class="bi bi-cast" style="color: white;"></i><a routerLink="/project">Project</a>
+                      </div>
+
+                      <a class="navb-button" type="button" href="https://github.com/ashis541/newportfolio.git" target="_blank"><i class="bi bi-git" style="font-size: 26px;"></i></a>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+  </div>
+</header>
